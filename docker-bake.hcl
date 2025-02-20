@@ -2,7 +2,7 @@
 # Reference: https://github.com/docker/buildx/blob/master/docs/reference/buildx_bake.md
 
 variable "REGISTRY_USER" {
-    default = "frappe"
+    default = "wolone"
 }
 
 variable PYTHON_VERSION {
@@ -21,15 +21,15 @@ variable "ERPNEXT_VERSION" {
 }
 
 variable "FRAPPE_REPO" {
-    default = "https://github.com/frappe/frappe"
+    default = "https://github.com/wolono/frappe"
 }
 
 variable "ERPNEXT_REPO" {
-    default = "https://github.com/frappe/erpnext"
+    default = "https://github.com/wolono/erpnext"
 }
 
 variable "BENCH_REPO" {
-    default = "https://github.com/frappe/bench"
+    default = "https://github.com/wolono/bench"
 }
 
 variable "LATEST_BENCH_RELEASE" {
